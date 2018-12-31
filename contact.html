@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Screenprint SpecialTee's Inc.</title>
+</head>
+
+<body>
+
+  <!--- NAV BAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navStyle">
+    <a class="navbar-brand" href="index.html">
+      <img id="logo" src="assets/S_S_T_Logo_small.9893926.png" alt="logo" height="50" width="50" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto" id="listStyle">
+        <!-- <li class="nav-item active"> -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT US</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-danger" href="shipping.html">FREE SHIPPING</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+  <br />
+  <br />
+
+  <div class="about">
+    <div class="aboutcenter">
+      <h4>
+        We are located on the northside of Indianapolis near 96th and Michigan between Bill Estes Chevrolet and
+        Champion Chrysler Jeep Dodge Ram.
+        <br />
+        <br />
+        Regular business hours are Monday through Friday 7:00am to 3:00pm. Subject to change without notice, please
+        call ahead to verify before you visit us.
+      </h4>
+      <br />
+      <p>
+        <b>Screenprint SpecialTees Inc.</b>
+        <br>
+        4353 West 96th Street<br>
+        Suite 200<br>
+        Indianapolis, IN 46268<br>
+        phone: 317.396.0349<br>
+        fax: 317.396.0348<br>
+        jaime@screenprintspecialtees.com
+      </p>
+    </div>
+  </div>
+
+  <div id="map" class="googlemap"></div>
+
+  <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var uluru = { lat: 39.925278, lng: -86.23444 };
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+        document.getElementById('map'), { zoom: 15, center: uluru });
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({ position: uluru, map: map });
+    }
+  </script>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKLy4nvYG7QG6dn-KF3Ju69jZJgsicfRA&callback=initMap">
+</script>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
