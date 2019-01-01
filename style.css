@@ -9,9 +9,8 @@ body {
     display: block;
 }
 
-.shipping h1 {
+.shipping h3 {
     color: #dc3545;
-    /* text-align: center; */
     font-weight: bold;
 }
 
@@ -22,7 +21,6 @@ body {
 }
 
 .shipping img {
-    /* width: 40%; */
     margin: auto;
     text-align: center;
 }
@@ -32,8 +30,6 @@ body {
 }
 
 .bground:before {
-    /* width: 100%;
-    height: 100%; */
     content: "";
     position: absolute;
     top: 0;
@@ -44,11 +40,9 @@ body {
     background-image: url("./assets/sst.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: 0.8; */
 }
 
 .sstlogo {
-    /* width: 5em; */
     height: 50em;
     margin: auto;
     opacity: 100%;
@@ -98,19 +92,15 @@ body {
     width: 80%;
     margin: auto !important;
     text-align: center;
-    /* display: inline-block; */
 }
 
 .aboutcenter {
-    /* width: 80%; */
     margin: auto !important;
-    /* display: inline-block; */
 }
 
 .aboutcenter img {
     width: 100%;
     margin: auto !important;
-    /* display: inline-block; */
 }
 
 
