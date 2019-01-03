@@ -61,9 +61,6 @@ body {
     /* z-index: 1; */
 }
 
-
-
-
 .googlemap {
     width: 80%;
     height: 400px;
@@ -104,7 +101,7 @@ body {
 } */
 
 .about {
-    width: 80%;
+    width: 90%;
     margin: auto !important;
     text-align: center;
 }
@@ -113,14 +110,43 @@ body {
     margin: auto !important;
 }
 
-.aboutcenter img {
-    width: 100%;
-    margin: auto !important;
-}
-
 .card {
     vertical-align: top;
-    width: 300px;
+    width: 320px;
     margin: 5px;
     display: inline-block;
+}
+
+.services {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    /* color: black; */
+    /* -webkit-text-stroke: .25px black; */
+}
+
+
+.services h4 {
+    /* text-align: center; */
+    /* width: 80%; */
+    margin: auto;
+    /* color: black; */
+    /* -webkit-text-stroke: .25px black; */
+}
+
+.services img {
+    width: 30%;
+    /* margin: auto; */
+    /* min-height: 800px; */
+    /* content: ""; */
+    /* position: absolute; */
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    /* z-index: 0; */
+    /* background-image: url("./assets/stack.jpeg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* margin: auto !important; */
 }
